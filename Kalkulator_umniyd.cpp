@@ -13,7 +13,10 @@ int divd(int frs, int dw)
 {
     return frs / dw;
 }
-
+int mul(int frs, int dw)
+{
+    return frs * dw;
+}
 int main()
 {
     std::cout << "Hello World!\n";

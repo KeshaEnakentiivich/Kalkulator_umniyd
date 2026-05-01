@@ -1,4 +1,4 @@
-#include "mthfuncs.cpp"
+//#include "mthfuncs.cpp"
 #pragma once
 int sum(int frs, int dw);
 int mns(int frs, int dw);

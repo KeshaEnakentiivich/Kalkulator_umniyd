@@ -1,22 +1,6 @@
-﻿
+﻿#include "mthfuncs.h"
 #include <iostream>
 using namespace std;
-int sum(int frs, int dw)
-{
-    return frs + dw;
-}
-int mns(int frs, int dw)
-{
-    return frs - dw;
-}
-int divd(int frs, int dw)
-{
-    return frs / dw;
-}
-int mul(int frs, int dw)
-{
-    return frs * dw;
-}
 int main()
 {
     cout << "2 + 2 =";

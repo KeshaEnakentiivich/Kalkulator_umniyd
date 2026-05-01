@@ -1,4 +1,4 @@
-#include "mthfuncs.h"
+//#include "mthfuncs.h"
 int sum(int frs, int dw)
 {
     return frs + dw;

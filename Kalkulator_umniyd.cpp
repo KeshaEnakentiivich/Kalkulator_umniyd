@@ -1,12 +1,11 @@
 ﻿#include "mthfuncs.h"
 #include <iostream>
-#include <windows.h>
 using namespace std;
 string menuopt;
 int o = 0;
 int d = 0;
 bool fd = false;
-int main(bool ff)
+int main()
 {
     if (!fd)
     {
@@ -58,7 +57,7 @@ int main(bool ff)
             cout << "Vyberite optsiyu esche raz!" << endl;
         }
         fd = true;
-        return main(true);
+        return main();
     }
     else
     {

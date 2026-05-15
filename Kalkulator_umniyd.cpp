@@ -14,43 +14,44 @@ int main()
         cout << "2. Vychitanie\n" << endl;
         cout << "3. Delenie\n" << endl;
         cout << "4. Umnozhenie\n" << endl;
-        cout << "Vyberite: " << endl;
+        cout << "V. Vyhod\n" << endl;
+        cout << "Vyberite: ";
         cin >> menuopt;
         if (menuopt == "1")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "+" + d << endl;
-            cout << sum(o, d) << endl;
+            cout << o << "+" << d << "=" << sum(o, d) << endl;
         }
         else if (menuopt == "2")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "-" + d << endl;
-            cout << mns(o, d) << endl;
+            cout << o << "-" << d << "=" << mns(o, d) << endl;
         }
         else if (menuopt == "3")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + ":" + d << endl;
-            cout << divd(o, d) << endl;
+            cout << o << ":" << d << "=" << divd(o, d) << endl;
         }
         else if (menuopt == "4")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "x" + d << endl;
-            cout << mul(o, d) << endl;
+            cout << o << "x" << d << "=" << mul(o, d) << endl;
+        }
+        else if (menuopt == "V" || menuopt == "v")
+        {
+            return 0;
         }
         else
         {
@@ -61,43 +62,43 @@ int main()
     }
     else
     {
-        cout << "Vyberite: " << endl;
+        cout << "Vyberite: ";
         cin >> menuopt;
         if (menuopt == "1")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "+" + d << endl;
-            cout << sum(o, d) << endl;
+            cout << o << "+" << d << "=" << sum(o, d) << endl;
         }
         else if (menuopt == "2")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "-" + d << endl;
-            cout << mns(o, d) << endl;
+            cout << o << "-" << d << "=" << mns(o, d) << endl;
         }
         else if (menuopt == "3")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + ":" + d << endl;
-            cout << divd(o, d) << endl;
+            cout << o << ":" << d << "=" << divd(o, d) << endl;
         }
         else if (menuopt == "4")
         {
-            cout << "Pervoe chislo: " << endl;
+            cout << "Pervoe chislo: ";
             cin >> o;
-            cout << "Vtoroe chislo: " << endl;
+            cout << "Vtoroe chislo: ";
             cin >> d;
-            cout << o + "x" + d << endl;
-            cout << mul(o, d) << endl;
+            cout << o << "x" << d << "=" << mul(o, d) << endl;
+        }
+        else if (menuopt == "V" || menuopt == "v")
+        {
+            return 0;
         }
         else
         {
